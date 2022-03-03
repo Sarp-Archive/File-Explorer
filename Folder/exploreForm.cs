@@ -27,7 +27,7 @@ namespace Folder
         );
         #endregion
 
-        public string location = @"C:\Users\sarpe";
+        public string location = Environment.GetEnvironmentVariable("USERPROFILE");
         private int lastSel;
 
         public exploreForm()
